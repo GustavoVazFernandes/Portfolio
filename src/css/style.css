@@ -4,77 +4,100 @@
 }
 
 body{
-    height: 100%;
     box-sizing: border-box;
     background-color: #000000 ;
     color: #ffffff;
-    font-family: "Krona One";
-    background-size: 100%;
+    font-family: "Krona One", sans-serif;
+    max-width: 1366px;
 }
 
-.linguagem{
-    color: #0000FF;
+.cabecalho{
+    padding: 2% 0 0 15%;
 }
 
-.bem-vindo{
-    margin: 0 auto;
-    font-size: 34px;
+.cabecalho__menu{
+    display: flex;
+    gap: 40px;
 }
 
-img{
-    border-radius: 25px;
-    width: 400px;
-    height:400px;
-    margin:0 auto;
-    margin-top: 3%;
+.cabecalho__menu__link{
+    color: #ff0000;
 }
 
-.nome{
-    margin: 0 auto;
-    margin-top: 2%;
-    font-size: 22px;
+.titulo-destaque{
+    color: #ff0000;
 }
 
 .apresentacao{
-    margin-top: 2%;
-    margin-left: 15%;
+    margin: 7% 15%;
     display: flex;
-    width: 70%;
     align-items: center;
     justify-content: space-between;
 }
 
-.sub-titulo{
-    margin-top: 1%;
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+.apresentacao__conteudo__titulo{
+    font-size: 23px;
+    font-family: 'Krona One', sans-serif;
 }
 
 .apresentacao__conteudo__texto{
-    font-size: 16px; 
-    margin-top: 2%;
-    text-align:justify;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    width: 620px;
 }
 
 .apresentacao__links{
     display: flex;
-    margin-top: 2%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links__subtitulo{
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0 auto;
 }
 
 .apresentacao__links__link{
-    background-color: #0000FF;
-    color: #ffffff;
-    width: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid #ff0000;
+    width: 225px;
+    gap: 5px;
     text-align: center;
-    border-radius: 16px;
-    font-size: 24px;
-    padding: 21.5px 0;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 0;
     text-decoration: none;
-    margin-right: 2%;
-    margin-bottom: 5%;
+    color: #F6F6F6;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.apresentacao__links__projetos{
-    color: #ffffff;
-    margin-top: 2%;
-    display: flex;
-    flex-direction: column;
+.logo{
+    width: 20px;
+}
+
+.foto-gustavo{
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+.apresentacao__links__link:hover{
+    transform:scale(1.10);
+    cursor: pointer;
 }

@@ -8,59 +8,35 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/scrollbar.css">
     <title>Portfolio</title>
 </head>
 <div>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link">Home</a>
+            <a class="cabecalho__menu__link">Sobre Mim</a>
+        </nav>
+    </header>
     </main>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
             
-            <div style="display: flex; flex-direction: column;">
-                <h1 class="bem-vindo" style="align-items: center;">Seja bem-vindo ao meu portfolio!</h1>
-                <img class="foto-gustavo" src="./src/imagens/340071493_544958881115624_7810292492399774337_n.jpg" alt="Foto do Vaz">
-                <h2 class="nome" style="text-align: center;">Gustavo Vaz Fernandes <br> 21 anos </h2>
-            </div>
-            <p class="apresentacao__conteudo__texto">______________________________________________________________________________________________________</p>
-
-            <h2 class="sub-titulo">Sobre</h2>
-            <p class="apresentacao__conteudo__texto">Olaá! Meu nome é Gustavo, mas pode me chamar de Vaz, sou de Ipatinga-MG e faço a graduação de Sistemas da Informação pela UFVJM em Diamantina-MG, sou desenvolvedor e ja trabalhei com as linguagens <strong class="linguagem">Delphi, C++, Java, HTML5, CSS, JavaScript e SQL</strong>. Vou deixar aqui embaixo alguns projetos e algumas outras informações de tudo que ja realizei até o momento e tambem minhas redes profissionais.</p>
-
-            <p class="apresentacao__conteudo__texto">______________________________________________________________________________________________________</p>
-
-            <h2 class="sub-titulo">Formação Academica</h2>
-            <li class="apresentacao__conteudo__texto">Tecnico em Automação Industrial - Concluido em 2019.</li>
-            <li class="apresentacao__conteudo__texto">Graduação em Sistemas da Informação na Universidade Federal dos Vales do Jequitinhonha e Mucuri - Setimo periodo.</li>
+            <h1 class="apresentacao__conteudo__titulo" >Olá, seja bem vindo ao <strong 
+                class="titulo-destaque">meu portfolio!</strong></h1>
+    
+            <p class="apresentacao__conteudo__texto"> Aqui você irá encontrar um pouco mais sobre quem eu sou e todos os meus projetos que ja desenvolvi. Sinta-se a vontade e entre em contato comigo para qualquer duvida.</p>           
             
-            <p class="apresentacao__conteudo__texto">______________________________________________________________________________________________________</p>
-
-            <h2 class="sub-titulo">Experiencia</h2>
-            <li class="apresentacao__conteudo__texto">Estagio em Desenvolvimento - ATS Informatica - Atuando com a linguagem Delphi e SQL.</li> 
-            <li class="apresentacao__conteudo__texto">Diretor Financeiro - Associação Academica Atletica de Sistemas de Informação The Bug - Atletica do curso de Sistemas da Informação dentro da UFVJM.</li>
-            <li class="apresentacao__conteudo__texto">Organizador e Apresentador - UaiDev -  Evento criado por alunos no qual tem como objetivo trazer palestras sobre diversos temas dentro da area da tecnologia e desenvolvimento.</li>
-
-            <p class="apresentacao__conteudo__texto">______________________________________________________________________________________________________</p>
-
-            <h2 class="sub-titulo">Projetos</h2>
-            <a class="apresentacao__links__projetos" href="https://github.com/GustavoVazFernandes/Lanchonete">Lanchonete em Java</a>
-            <br>
-            <a class="apresentacao__links__projetos" href="https://github.com/GustavoVazFernandes/SistemaCursoDelphi">Sistema de Varejo em Delphi</a>
-            <br>
-            <a class="apresentacao__links__projetos" href="https://github.com/GustavoVazFernandes/ListaPokemon">Listagem de Pokemon em HTML, CSS e JS</a>
-            <br>
-            <a class="apresentacao__links__projetos" href="https://github.com/GustavoVazFernandes/TrabalhoPOO">Trabalho de Programação Orientada a Objeto em Java</a>
-
-            <p class="apresentacao__conteudo__texto">______________________________________________________________________________________________________</p>
-            
-            <h2 class="sub-titulo">Contato</h2>
+            <h2 class="apresentacao__links__subtitulo">Acesse minhas redes sociais:</h2>
             <div class="apresentacao__links">
-                <a class="apresentacao__links__link" href="https://www.linkedin.com/in/gustavo-vaz-fernandes-31520a199/">Linkedin</a>
-                <a class="apresentacao__links__link" href="https://github.com/GustavoVazFernandes">GitHub</a>
-                <a class="apresentacao__links__link" href="mailto:gustavo.vaz@ufvjm.edu.br">Gmail</a>
-                <a class="apresentacao__links__link" href="https://wa.me/5531986568141">WhatsApp</a>
+                
+                <a class="apresentacao__links__link" href="https://www.linkedin.com/in/gustavo-vaz-fernandes-31520a199/"><img src="./src/imagens/icone-linkedin-ronde-rouge.png" class="logo">Linkedin</a>
+                <a class="apresentacao__links__link" href="https://github.com/GustavoVazFernandes"><img src="./src/imagens/icone-github-rouge.png" class="logo">GitHub</a>
+               
             </div>
 
         </section>
+        <img src="./src/imagens/340071493_544958881115624_7810292492399774337_n.jpg" alt="Foto do Vaz" class="foto-gustavo">
     </main>
     <footer></footer>
 </body>
