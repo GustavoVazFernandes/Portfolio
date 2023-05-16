@@ -12,7 +12,8 @@ body{
 }
 
 .cabecalho{
-    padding: 2% 0 0 15%;
+    padding: 2% 0 2% 15%;
+
 }
 
 .cabecalho__menu{
@@ -22,6 +23,7 @@ body{
 
 .cabecalho__menu__link{
     color: #ff0000;
+    text-decoration: none;
 }
 
 .titulo-destaque{
