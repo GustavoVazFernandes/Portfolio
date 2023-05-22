@@ -19,6 +19,10 @@ header{
 body{
     box-sizing: border-box;
     background-color: var(--cor--primaria);
+    background-image: url("./background.svg");
+    background-attachment:fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
     color: var(--cor--secundaria);
     font-family: var(--fonte--primaria);
 }
@@ -140,6 +144,10 @@ body{
     width: 40%;
     height: 40%;
     border-radius: 25px;
+
+    border: 4px solid transparent;
+    background: linear-gradient(#850303, #c40f0f, var(--cor--terciaria)) padding-box,
+    linear-gradient(260deg, #850303, #c40f0f, var(--cor--terciaria)) border-box;
 }
 
 .apresentacao__links__link:hover{
