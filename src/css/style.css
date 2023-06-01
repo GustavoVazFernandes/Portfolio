@@ -57,6 +57,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 68px;
 }
 
 .apresentacao__conteudo{
@@ -153,4 +154,24 @@ body{
 .apresentacao__links__link:hover{
     transform:scale(1.05);
     cursor: pointer;
+}
+
+
+@media (max-width: 768px){
+    .cabecalho{
+        padding: 5%;
+    }
+
+    .cabecalho__menu{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+    }
+
+    .apresentacao__conteudo{
+        width: 100%;
+    }
 }
